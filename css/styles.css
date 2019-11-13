@@ -2,13 +2,14 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 6rem;
-    /*16px = 100% = 1em
+  /*16px = 100% = 1em
     rem is preferred. most adabtable, least error-prone*/
   color: #66BFBF;
   line-height: 1;
@@ -19,6 +20,7 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -26,17 +28,25 @@ h3 {
   color: #11999E;
 }
 
-p {
-  color: #40514E;
-}
-
 hr {
   border-style: dotted none none;
   width: 5%;
   border-width: 10px;
   color: #EAF6F6;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .top-container {
@@ -45,30 +55,36 @@ hr {
   padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+  margin: 100px, 0;
+}
 
 .bottom-container {
   background-color: #66BFBF;
   margin: 0;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 20px;
-
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .profile-photo {
@@ -80,7 +96,6 @@ hr {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .tech-img {
@@ -101,7 +116,11 @@ hr {
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
-  padding: 20px;
+  margin: 10px 20px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
 }
 
 .copyright {
@@ -109,21 +128,31 @@ hr {
 }
 
 .flaticon_credit {
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.5em;
   color: #EAF6F6;
 }
 
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .ContactButton {
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:'Montserrat';
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
+  background: linear-gradient(to bottom, #11CDD4 5%, #11999E 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
   margin: 50px;
+}
+
+.ContactButton:hover {
+  background: linear-gradient(to bottom, #30E3CB 5%, #2BC4AD 100%);
 }
