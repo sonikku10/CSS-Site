@@ -125,11 +125,13 @@ a:hover {
 
 .copyright {
   color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .flaticon_credit {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.5em;
+  font-size: 0.75rem;
   color: #EAF6F6;
 }
 
